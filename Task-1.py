@@ -1,7 +1,7 @@
 # ===========================================================================
 # ===========================================================================
 #
-#   Goal:
+#   Goal of this task:
 #       Help Celina automate the borrowing and returning of library items.
 #
 #   How it works:
@@ -57,3 +57,9 @@ print(library_item.title)
 library_item.borrow_item()    # Someone takes the item
 library_item.return_item()    # The item is brought back
 library_item.borrow_item()    # Someone takes it again (allowed, it is back on the shelf)
+
+# Output:
+# The Magic Of Thinking Big
+# The Magic Of Thinking Big has been borrowed.
+# The Magic Of Thinking Big has been returned.
+# The Magic Of Thinking Big has been borrowed.
